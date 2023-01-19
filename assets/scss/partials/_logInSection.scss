@@ -1,0 +1,27 @@
+#logInSection {
+  width: 90%;
+  color: black;
+  border: 2px solid $battleship-grey;
+  padding-bottom: 5px;
+  background-color: $prussian-blue;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  h3 {
+    color: white;
+    padding: 0.6em;
+    margin: 0;
+  }
+
+  fieldset {
+    width: 90%;
+    background-color: lightgray;
+
+    input {
+      width: 70%;
+    }
+  }
+}
