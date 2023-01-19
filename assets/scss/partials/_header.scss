@@ -21,14 +21,21 @@ header {
     width: 85%;
     height: 100%;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
     h2 {
-      font-size: 2em;
+      font-family: $title-font;
+      font-size: 2.2em;
+      letter-spacing: 5px;
       margin: 0;
     }
 
     p {
       font-size: 0.8em;
       font-weight: 300;
+      letter-spacing: 2px;
       margin: 0;
     }
   }

@@ -1,6 +1,6 @@
 footer {
   width: 100%;
-  height: 12%;
+  height: 8%;
   color: $white;
   background-color: $prussian-blue;
 
@@ -11,7 +11,8 @@ footer {
   h2 {
     margin: 0;
     font: {
-      size: 1em;
+      family: $title-font;
+      size: 0.8em;
       weight: 400;
     }
   }
@@ -19,21 +20,33 @@ footer {
   ul {
     width: 50%;
     padding: 0;
-    margin-top: 2em;
+    margin-bottom: 0;
+    margin-top: 0.7em;
     list-style-type: none;
 
     display: flex;
     justify-content: space-around;
 
     li {
+      font-size: 0.8em;
       width: 20%;
       text-align: center;
+      color: $battleship-grey;
+      transition: 0.2s;
+
+      &:hover {
+        font-size: 1em;
+        color: $white;
+        cursor: pointer;
+        transition: 0.3s;
+      }
     }
   }
 
   p {
     font-size: 0.8em;
     padding: 0;
-    margin-top: 0.5em;
+    margin-top: 0.4em;
+    color: $battleship-grey;
   }
 }
